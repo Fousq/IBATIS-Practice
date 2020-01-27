@@ -1,0 +1,11 @@
+jar files:
+    Ibatis-common-2.jar = iBATIS Common Utilities, required: true
+    Ibatis-sqlmap-2.jar = iBATIS Data Mapper Framework, required: true
+    Ibatis-dao-2.jar = iBATIS Data Access Objects Framework, required: false
+
+Data Mapper is configured using a central XML configuration file, which provides configuration details for
+DataSources, Data Mapper and other options like thread management.
+
+<!DOCTYPE sqlMapConfig
+PUBLIC "-//ibatis.apache.org//DTD SQL Map Config 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-config-2.dtd"> - xml header
